@@ -24,7 +24,7 @@ meanandstd.csv, contains only columns corresponding to mean and std for all vari
 
 summdata.csv contains summarized info for activity and subject
 
-`
+```
 #
 # Download and unzip files for analisys, the file will be download in current
 # directory and unziped in a directory named data, created in current directory
@@ -123,4 +123,4 @@ summdata<-summarise_all(grdata,mean)
 write.csv(summdata,file="./data/summdata.csv")
 
 
-`
+```
